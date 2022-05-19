@@ -1,0 +1,139 @@
+/* css document */
+
+@font-face {
+    font-family: "fontona";
+    src: url("../fonte/Ramaraja-Regular.ttf")
+}
+
+* {
+    font-family: 'fontona', cursive;
+    font-size: 23px;
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+background-image: url(../imagens/technology-background-1632715.jpg);
+background-size: 100%;
+background-attachment: fixed;
+}
+
+#container {
+    width: 80%;
+    margin: 3% auto;
+    border: solid 1px black;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    font-family: 'Ramaraja', serif;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(6, 2, 7);
+    /*   margin-top: 5%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-left: 5%; */
+    margin: 5% 5% 5% 5%;
+
+    border: blue 15px solid;
+
+    border-bottom-color: blue;
+    border-bottom-width: 1%;
+    border-bottom-style: groove;
+
+    border-bottom: inset (30, 114, 210) 10px;
+    border-top: inset rgb(0, 26, 255) 10px;
+    border-radius: 100%;
+
+    background-color: rgba(12, 25, 204, 0.664);
+    text-shadow: 0px 0px 10px rgb(66, 211, 97);
+    box-shadow: 10px 0px 15px rgba(0, 140, 255, 0.534)
+}
+
+/*nav{background-color: rgb(13, 134, 134);}*/
+nav ul {
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline;
+    background-color: #05a9e0;
+    padding: 2px;
+    margin: 2%;
+    border-radius: 35% 35% 35% 35%;
+}
+
+nav ul li a {
+    color: rgb(0, 10, 9);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+    /* font-size: 20px; */
+}
+
+nav ul li :hover {
+    background-color: rgb(0, 252, 218);
+}
+
+h2 {
+    background-color: rgba(0, 140, 255, 0.534);
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    margin: 0% 3%;
+    opacity: 0.8;
+    box-shadow: 5px 5px 3px;
+    transition: 1s;
+}
+
+figure img:hover {
+    opacity: 1;
+}
+
+
+#principal {
+    display: flex;
+}
+
+
+article {
+    width: 70%;
+    border: solid 1px maroon
+}
+
+aside {
+    width: 30%;
+    border: solid 1px mediumblue;
+    text-align: center;
+}
+
+#DESTAQUESE1 {
+    padding: 2%;
+}
+
+
+
+
+
+
+#redes_sociais {
+    padding: 2%;
+}
+
+#redes_sociais img:hover {
+    transform: rotate(360deg)scale(3);
+}
+
+LI {
+    list-style: none;
+}
